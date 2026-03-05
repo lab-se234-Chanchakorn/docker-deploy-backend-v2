@@ -1,0 +1,6 @@
+services:
+  backend:
+    image: wasun/234-deploylab-backend:latest
+    platform: linux/amd64
+    ports:
+      - "8083:8080"
